@@ -1,9 +1,16 @@
 
+body {
+  background-color: #052345;
+}
+
 .jumbotron {
   color: #3C9494;
   background-color: #052345;
 }
 
+.card  {
+  border-color: #000000;
+}
 
 .card-header  {
   color: #788EA7;
