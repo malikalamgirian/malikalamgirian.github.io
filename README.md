@@ -1,2 +1,3 @@
-# malikalamgirian.github.io
-Not so personal, personal profile.
+# WasifAltaf.com
+
+My not so personal, personal profile.
