@@ -1,0 +1,55 @@
+
+.jumbotron {
+  color: #3C9494;
+  background-color: #052345;
+}
+
+
+.card-header  {
+  color: #788EA7;
+  background-color: #073763;
+}
+
+
+.card-body  {
+  color: #3C9494;
+  background-color: #052345;
+}
+
+
+.table  {
+  color: #3C9494;
+  background-color: #052345;
+}
+
+
+.table-hover tbody tr:hover {
+  color: #D5C8BF;
+  background-color: #052345;
+}
+
+
+.list-group-item {
+  color: #3C9494;
+  background-color: #052345;
+}
+
+
+.btn-link {
+  color: #3C9494;
+}
+
+
+.btn-link:hover {
+  color: #3C9494;
+}
+
+
+a:hover {
+  color: #3C9494;
+}
+
+
+a {
+  color: #788EA7;
+}
