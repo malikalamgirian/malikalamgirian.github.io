@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137972129-1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-          gtag('config', 'UA-137972129-1');
-        </script>
+          <!-- Global site tag (gtag.js) - Google Analytics -->
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137972129-1"></script>
+
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-137972129-1');
+          </script>
+
+          <script>
+                $(function(){
+
+                });
+          </script>
+
+        <!-- accessibility JavaScript  -->
+        <script src="res/js/accessibility.js"></script>
 
         <!-- Required meta tags -->
         <meta charset="utf-8">
@@ -17,8 +29,9 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="res/css/night.css" id="accessibilityStyleSheet">
 
-        <title>Wasif Altaf</title>
+        <title>Wasif Altaf | CV</title>
 
     </head>
     <body>
@@ -73,6 +86,11 @@
                                     <a class="nav-link" href="#Contact">Contact</a>
                                 </li>
 
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#Accessibility">Accessibility</a>
+                                </li>
+
+
                             </ul>
 
                         </div>
@@ -108,7 +126,7 @@
 
                   <div class="card">
 
-                    <div class="card-header h5 text-white bg-success">
+                    <div class="card-header h5 ">
                       Updates
                     </div>
 
@@ -163,7 +181,7 @@
                 <div class="col float-left">
 
                     <div class="card">
-                        <div class="card-header card-title h5 text-white bg-success">
+                        <div class="card-header card-title h5 ">
                             Professional Work Experience
                         </div>
 
@@ -257,7 +275,7 @@
                 <div class="col float-left">
 
                     <div class="card">
-                        <div class="card-header card-title h5 text-white bg-success">
+                        <div class="card-header card-title h5">
                             Publications
                         </div>
                         <div class="card-body">
@@ -315,7 +333,7 @@
                 <div class="col float-left">
 
                     <div class="card">
-                        <div class="card-header card-title h5 text-white bg-success">
+                        <div class="card-header card-title h5">
                             Articles
                         </div>
 
@@ -360,7 +378,7 @@
                 <div class="col float-left">
 
                     <div class="card">
-                        <div class="card-header card-title h5 text-white bg-success">
+                        <div class="card-header card-title h5 ">
                             Honors and Awards
                         </div>
                         <div class="card-body">
@@ -412,356 +430,380 @@
             </div>
 
 
-            <div class="row mt-3" id="Projects">
-                <div class="col float-left">
-                  <div class="accordion" id="projects_accordion">
 
-                    <div class="card" >
+                              <div class="row mt-3" id="Projects">
+                                  <div class="col float-left">
 
-                        <div class="card-header card-title h5 text-white bg-success">
-                            Projects
-                        </div>
+                                      <div class="card">
 
-                        <div class="card-header bg-white  text-left" id="headingClappImporter" data-toggle="collapse"
-                          data-target="#collapseClappImporter" aria-expanded="true" aria-controls="collapseClappImporter">
-                          <h2 class="mb-0">
-                            <button class="btn btn-link text-dark text-decoration-none text-left" type="button" data-toggle="collapse"
-                              data-target="#collapseClappImporter" aria-expanded="true" aria-controls="collapseClappImporter">
-                              ClappImporter
-                            </button>
-                          </h2>
-                        </div>
+                                        <div class="accordion" id="projects_accordion">
 
-                        <div id="collapseClappImporter" class="collapse hide" aria-labelledby="headingClappImporter" data-parent="#projects_accordion">
-                           <div class="card-body bg-light">
-                             <p class="card-text">The main purpose of this project was to import heterogeneous medical data from various medical equipment,
-                               and to make that data available to AcuWave tools.</p>
+                                          <div class="card-header h5 ">
+                                              Projects
+                                          </div>
 
-                            </div>
-                        </div>
+                                          <div class="card-body">
 
-                    </div>
+                                              <p class="card-text">Some of the projects which I have worked on.</p>
 
 
-
-                    <div class="card" >
-
-                        <div class="card-header bg-white  text-left" id="headingAcuWave"  data-toggle="collapse"
-                          data-target="#collapseAcuWave" aria-expanded="true" aria-controls="collapseAcuWave">
-                          <h2 class="mb-0">
-                            <button class="btn btn-link text-decoration-none text-dark  text-left" type="button" data-toggle="collapse"
-                              data-target="#collapseAcuWave" aria-expanded="true" aria-controls="collapseAcuWave">
-                              AcuWave
-                            </button>
-                          </h2>
-                        </div>
-
-                        <div id="collapseAcuWave" class="collapse hide" aria-labelledby="headingAcuWave" data-parent="#projects_accordion">
-                           <div class="card-body bg-light">
-                             <p class="card-text">The main purpose of AcuWave is to provide different users a consolidated environment for accessing,
-                               analysing and evaluating variety of medical data and information conveniently.
-                               In this project, I worked mainly on the backend development and my responsibilities included, but were not limited to
-
-                                 <ul>
-                                   <li>Backend business logic implementation</li>
-                                   <li>Test driven plugin design, development and documentation</li>
-                                   <li>Technical documentation</li>
-                                 </ul>
-
-                                </p>
-
-                            </div>
-                        </div>
-
-                    </div>
+                                                <div class="card mt-3">
 
 
+                                                        <div class="card-header text-left" id="headingClappImporter"  data-toggle="collapse"
+                                                            data-target="#collapseClappImporter" aria-expanded="true" aria-controls="collapseClappImporter">
 
 
-                      <div class="card" >
+                                                              <h2 class="mb-0">
+                                                               <button class="btn btn-link text-decoration-none text-left" type="button" data-toggle="collapse"
+                                                                 data-target="#collapseClappImporter" aria-expanded="true" aria-controls="collapseClappImporter">
+                                                                 ClappImporter
+                                                               </button>
+                                                             </h2>
 
-                          <div class="card-header bg-white  text-left" id="headingUOG2015"  data-toggle="collapse"
-                            data-target="#collapseUOG2015" aria-expanded="true" aria-controls="collapseUOG2015">
-                            <h2 class="mb-0">
-                              <button class="btn btn-link text-decoration-none text-dark  text-left" type="button" data-toggle="collapse"
-                                data-target="#collapseUOG2015" aria-expanded="true" aria-controls="collapseUOG2015">
-                                UOG Fall 2015 Admissions System
-                              </button>
-                            </h2>
-                          </div>
+                                                      </div>
 
-                          <div id="collapseUOG2015" class="collapse hide" aria-labelledby="headingUOG2015" data-parent="#projects_accordion">
-                             <div class="card-body bg-light">
-                               <p class="card-text">The purpose of this project was to propose, design, develop, document,
-                                 support and maintain university admissions software for the admissions in fall 2015 for University of Gujrat.
-                                  </p>
+                                                      <div id="collapseClappImporter" class="card-body collapse hide" aria-labelledby="headingClappImporter"
+                                                              data-parent="#projects_accordion">
 
-                              </div>
-                          </div>
+                                                            <p class="card-text">The main purpose of this project was to import heterogeneous medical data from various medical equipment,
+                                                              and to make that data available to AcuWave tools.</p>
 
-                      </div>
-
-
-
-
-
-                                            <div class="card" >
-
-                                                <div class="card-header bg-white  text-left" id="headingSpatio"  data-toggle="collapse"
-                                                  data-target="#collapseSpatio" aria-expanded="true" aria-controls="collapseSpatio">
-                                                  <h2 class="mb-0">
-                                                    <button class="btn btn-link text-decoration-none text-dark  text-left" type="button" data-toggle="collapse"
-                                                      data-target="#collapseSpatio" aria-expanded="true" aria-controls="collapseSpatio">
-                                                      Spatio-Temporal Association Rule Mining of Unstructured Text (STARM Web Application)
-                                                    </button>
-                                                  </h2>
-                                                </div>
-
-                                                <div id="collapseSpatio" class="collapse hide" aria-labelledby="headingSpatio" data-parent="#projects_accordion">
-                                                   <div class="card-body bg-light">
-                                                     <p class="card-text">
-The purpose of this research was to explore spatio-temporal association rule mining of unstructured text.
-Aim of this research was to study and explore spatio-temporal relationships between diseases, symptoms and treatments using association rule mining.
-I conceived, designed, developed, tested, documented, deployed and maintained spatio-temporal association rules analysis tool namely STARA as part of this research.
-                                                     </p>
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-
-
-
-
-                                        <div class="card" >
-
-                                            <div class="card-header bg-white  text-left" id="headingPYF"  data-toggle="collapse"
-                                              data-target="#collapsePYF" aria-expanded="true" aria-controls="collapsePYF">
-                                              <h2 class="mb-0">
-                                                <button class="btn btn-link text-decoration-none text-dark  text-left" type="button" data-toggle="collapse"
-                                                  data-target="#collapsePYF" aria-expanded="true" aria-controls="collapsePYF">
-                                                  Punjab Youth Festival Web Portal
-                                                </button>
-                                              </h2>
-                                            </div>
-
-                                            <div id="collapsePYF" class="collapse hide" aria-labelledby="headingPYF" data-parent="#projects_accordion">
-                                               <div class="card-body bg-light">
-                                                 <p class="card-text">
-                                                   Punjab youth festival web portal is the hub of sports and non-sports activities in Punjab, Pakistan.
-                                                   In this project, I focused mainly on the backend development where I worked on admin section,
-                                                   registration section, media section, galleries and various other focus components.
-                                                   Mainly the responsibilities included
-
-                                                   <ul>
-                                                     <li>JSF-based front-end development</li>
-                                                     <li>EJB and backing-beans based business logic implementation</li>
-                                                     <li>Database design, development and maintenance</li>
-                                                     <li>Test automation using Junit framework and black-box testing</li>
-                                                     <li>Technical documentation</li>
-                                                     <li>Knowledge sharing and training</li>
-                                                   </ul>
-
-                                                 </p>
+                                                      </div>
 
                                                 </div>
-                                            </div>
-
-                                        </div>
 
 
+                                                <div class="card mt-3">
+
+                                                      <div class="card-header text-left" id="headingAcuWave"  data-toggle="collapse"
+                                                            data-target="#collapseAcuWave" aria-expanded="true" aria-controls="collapseAcuWave">
 
 
+                                                              <h2 class="mb-0">
+                                                               <button class="btn btn-link text-decoration-none text-left" type="button" data-toggle="collapse"
+                                                                 data-target="#collapseAcuWave" aria-expanded="true" aria-controls="collapseAcuWave">
+                                                                 AcuWave
+                                                               </button>
+                                                             </h2>
 
-                                        <div class="card" >
+                                                      </div>
 
-                                            <div class="card-header bg-white  text-left" id="headingICOSST2013" data-toggle="collapse"
-                                              data-target="#collapseICOSST2013" aria-expanded="true" aria-controls="collapseICOSST2013">
-                                              <h2 class="mb-0">
-                                                <button class="btn btn-link text-decoration-none text-dark  text-left" type="button" data-toggle="collapse"
-                                                  data-target="#collapseICOSST2013" aria-expanded="true" aria-controls="collapseICOSST2013">
-                                                  2013 International Conference on Open Source Systems and Technologies
-                                                </button>
-                                              </h2>
-                                            </div>
+                                                      <div id="collapseAcuWave" class="card-body collapse hide" aria-labelledby="headingAcuWave"
+                                                              data-parent="#projects_accordion">
 
-                                            <div id="collapseICOSST2013" class="collapse hide" aria-labelledby="headingICOSST2013" data-parent="#projects_accordion">
-                                               <div class="card-body bg-light">
-                                                 <p class="card-text">
-                                                   In ICOSST 2013, as being part of the organizers and publication committee,
-                                                   I worked mainly on organizational tasks and helped in research paper submissions handling, research paper reviews,
-                                                   ICOSST 2013 web portal management and maintenance, author correspondences and technical program committee correspondences.
-                                                   Moreover, I provided consultancy in event organization and management.
-                                                 </p>
+                                                              <p class="card-text">The main purpose of AcuWave is to provide different users a consolidated environment for accessing,
+                                                                analysing and evaluating variety of medical data and information conveniently.
+                                                                In this project, I worked mainly on the backend development and my responsibilities included, but were not limited to
+
+                                                                  <ul>
+                                                                    <li>Backend business logic implementation</li>
+                                                                    <li>Test driven plugin design, development and documentation</li>
+                                                                    <li>Technical documentation</li>
+                                                                  </ul>
+
+                                                                 </p>
+
+                                                      </div>
 
                                                 </div>
-                                            </div>
-
-                                        </div>
 
 
 
+                                                <div class="card mt-3">
+
+                                                      <div class="card-header text-left" id="headingUOG2015"  data-toggle="collapse"
+                                                            data-target="#collapseUOG2015" aria-expanded="true" aria-controls="collapseUOG2015">
 
 
+                                                              <h2 class="mb-0">
+                                                               <button class="btn btn-link text-decoration-none text-left" type="button" data-toggle="collapse"
+                                                                 data-target="#collapseUOG2015" aria-expanded="true" aria-controls="collapseUOG2015">
+                                                                 UOG Fall 2015 Admissions System
+                                                               </button>
+                                                             </h2>
 
-                                                    <div class="card" >
+                                                      </div>
 
-                                                        <div class="card-header bg-white  text-left" id="headingICOSST2012" data-toggle="collapse"
-                                                          data-target="#collapseICOSST2012" aria-expanded="true" aria-controls="collapseICOSST2012">
-                                                          <h2 class="mb-0">
-                                                            <button class="btn btn-link text-decoration-none text-dark  text-left" type="button" data-toggle="collapse"
-                                                              data-target="#collapseICOSST2012" aria-expanded="true" aria-controls="collapseICOSST2012">
-                                                              2012 International Conference on Open Source Systems and Technologies
-                                                            </button>
-                                                          </h2>
-                                                        </div>
+                                                      <div id="collapseUOG2015" class="card-body collapse hide" aria-labelledby="headingUOG2015"
+                                                              data-parent="#projects_accordion">
 
-                                                        <div id="collapseICOSST2012" class="collapse hide" aria-labelledby="headingICOSST2012" data-parent="#projects_accordion">
-                                                           <div class="card-body bg-light">
-                                                             <p class="card-text">
-                                                               In ICOSST 2012, as being part of the organizers and publication committee, I worked mainly on management side
-                                                               and my main responsibilities included
+                                                              <p class="card-text">The purpose of this project was to propose, design, develop, document,
+                                                                support and maintain university admissions software for the admissions in fall 2015 for University of Gujrat.
+                                                                 </p>
 
-                                                               <ul>
-                                                                 <li>Submissions management</li>
-                                                                 <li>Technical programme committee development</li>
-                                                                 <li>Tracking of reviewers</li>
-                                                                 <li>Research paper reviews, and reviews of reviews</li>
-                                                                 <li>Plagiarism analysis and issue conflict resolution</li>
-                                                                 <li>Author registrations and payments management</li>
-                                                                 <li>Author correspondences</li>
-                                                                 <li>Publication committee assistance</li>
-                                                                 <li>Conference program scheduling</li>
-                                                                 <li>Materials finalization and packaging for IEEE Xplore</li>
-                                                                 <li>ICOSST 2012 website maintenance</li>
-                                                               </ul>
-
-                                                             </p>
-
-                                                            </div>
-                                                        </div>
-
-                                                    </div>
-
-
-                                                <div class="card" >
-
-                                                    <div class="card-header bg-white  text-left" id="headingBatchEmailer" data-toggle="collapse"
-                                                      data-target="#collapseBatchEmailer" aria-expanded="true" aria-controls="collapseBatchEmailer">
-                                                      <h2 class="mb-0">
-                                                        <button class="btn btn-link text-decoration-none text-dark  text-left" type="button" data-toggle="collapse"
-                                                          data-target="#collapseBatchEmailer" aria-expanded="true" aria-controls="collapseBatchEmailer">
-                                                          Batch Emailer
-                                                        </button>
-                                                      </h2>
-                                                    </div>
-
-                                                    <div id="collapseBatchEmailer" class="collapse hide" aria-labelledby="headingBatchEmailer" data-parent="#projects_accordion">
-                                                       <div class="card-body bg-light">
-                                                         <p class="card-text">
-                                                           BatchEmailer application allows mass emailing, which is mainly used for marketing purposes.
-                                                           I developed Batch Emailer in two forms, first, as a Java EE based web application, and second as a standalone Java SE multithreaded application. Distinctive features of both applications were
-
-                                                            <ul>
-                                                              <li>Fault-tolerance</li>
-                                                              <li>Fail safety</li>
-                                                            </ul>
-
-
-                                                         </p>
-
-                                                        </div>
-                                                    </div>
+                                                      </div>
 
                                                 </div>
 
 
 
 
+                                                  <div class="card mt-3">
 
-                                                    <div class="card" >
+                                                        <div class="card-header text-left" id="headingSpatio"  data-toggle="collapse"
+                                                              data-target="#collapseSpatio" aria-expanded="true" aria-controls="collapseSpatio">
 
-                                                        <div class="card-header bg-white text-left" id="headingBookACourse"
-                                                        data-toggle="collapse"
-                                                          data-target="#collapseBookACourse" aria-expanded="true" aria-controls="collapseBookACourse">
-                                                          <h2 class="mb-0">
-                                                            <button class="btn btn-link text-decoration-none text-dark  text-left" type="button" data-toggle="collapse"
-                                                              data-target="#collapseBookACourse" aria-expanded="true" aria-controls="collapseBookACourse">
-                                                              BookACourse
-                                                            </button>
-                                                          </h2>
+
+                                                                <h2 class="mb-0">
+                                                                 <button class="btn btn-link text-decoration-none text-left" type="button" data-toggle="collapse"
+                                                                   data-target="#collapseSpatio" aria-expanded="true" aria-controls="collapseSpatio">
+                                                                   Spatio-Temporal Association Rule Mining of Unstructured Text (STARM Web Application)
+                                                                 </button>
+                                                               </h2>
+
                                                         </div>
 
-                                                        <div id="collapseBookACourse" class="collapse hide" aria-labelledby="headingBookACourse" data-parent="#projects_accordion">
-                                                           <div class="card-body bg-light">
-                                                             <p class="card-text">
-                                                               BookACourse web application is product oriented, and part of corporate bookacourse.com website. I was involved in Research & Development tasks, HTML prototyping, and mainly Test Driven Development. Responsibilities mainly included
+                                                        <div id="collapseSpatio" class="card-body collapse hide" aria-labelledby="headingSpatio"
+                                                                data-parent="#projects_accordion">
 
-                                                               <ul>
-                                                                 <li>Converting design documents to concrete Java-code</li>
-                                                                 <li>Writing and reviewing technical design documents</li>
-                                                                 <li>Testing using test driven development using JUnit framework</li>
-                                                                 <li>Reporting and resolving technical issues</li>
-                                                               </ul>
+                                                                <p class="card-text">
+           The purpose of this research was to explore spatio-temporal association rule mining of unstructured text.
+           Aim of this research was to study and explore spatio-temporal relationships between diseases, symptoms and treatments using association rule mining.
+           I conceived, designed, developed, tested, documented, deployed and maintained spatio-temporal association rules analysis tool namely STARA as part of this research.
+                                                                </p>
 
-                                                             </p>
-
-                                                            </div>
                                                         </div>
-
-                                                    </div>
-
-
-
-
-
-
-                                          <div class="card" >
-
-                                              <div class="card-header bg-white text-left" id="headingParaDetect"
-                                              data-toggle="collapse"
-                                                data-target="#collapseParaDetect" aria-expanded="true" aria-controls="collapseParaDetect">
-                                                <h2 class="mb-0">
-                                                  <button class="btn btn-link text-decoration-none text-dark  text-left" type="button" data-toggle="collapse"
-                                                    data-target="#collapseParaDetect" aria-expanded="true" aria-controls="collapseParaDetect">
-                                                    Paraphrase Identification
-                                                  </button>
-                                                </h2>
-                                              </div>
-
-                                              <div id="collapseParaDetect" class="collapse hide" aria-labelledby="headingParaDetect" data-parent="#projects_accordion">
-                                                 <div class="card-body bg-light">
-                                                   <p class="card-text">
-                                                     My MCS dissertation research project was related mainly to text mining domain, purposed to learn to identify that whether or not two sentences in English language are paraphrases of each other. ParaDetect, a paraphrase identification system I developed using Java SE, which utilized machine learning classifier to learn to classify sentence pairs as paraphrases or not paraphrases of each other.
-                                                   </p>
-
-                                                   <p class="card-text">
-The system implemented achieved performance accuracy comparable to state-of-the-art paraphrase identification systems. Analysis of Microsoft Research Paraphrase Corpus, a standard dataset used mainly for evaluation of paraphrase identification techniques, and features based on semantic heuristics used for detecting not-paraphrase sentence pairs by ParaDetect were important part of the research and development. The research elements of this work were published under title “Paraphrase Identification using Semantic Heuristic Features” in Research Journal of Applied Sciences.
-
-                                                   </p>
 
                                                   </div>
+
+
+
+
+                                                    <div class="card mt-3">
+
+                                                          <div class="card-header text-left" id="headingPYF"  data-toggle="collapse"
+                                                                data-target="#collapsePYF" aria-expanded="true" aria-controls="collapsePYF">
+
+
+                                                                  <h2 class="mb-0">
+                                                                   <button class="btn btn-link text-decoration-none text-left" type="button" data-toggle="collapse"
+                                                                     data-target="#collapsePYF" aria-expanded="true" aria-controls="collapsePYF">
+                                                                     Punjab Youth Festival Web Portal
+                                                                   </button>
+                                                                 </h2>
+
+                                                          </div>
+
+                                                          <div id="collapsePYF" class="card-body collapse hide" aria-labelledby="headingPYF"
+                                                                  data-parent="#projects_accordion">
+
+                                                                  <p class="card-text">
+                                                                    Punjab youth festival web portal is the hub of sports and non-sports activities in Punjab, Pakistan.
+                                                                    In this project, I focused mainly on the backend development where I worked on admin section,
+                                                                    registration section, media section, galleries and various other focus components.
+                                                                    Mainly the responsibilities included
+
+                                                                    <ul>
+                                                                      <li>JSF-based front-end development</li>
+                                                                      <li>EJB and backing-beans based business logic implementation</li>
+                                                                      <li>Database design, development and maintenance</li>
+                                                                      <li>Test automation using Junit framework and black-box testing</li>
+                                                                      <li>Technical documentation</li>
+                                                                      <li>Knowledge sharing and training</li>
+                                                                    </ul>
+
+                                                                  </p>
+
+                                                          </div>
+
+                                                    </div>
+
+
+
+
+                                                <div class="card mt-3">
+
+                                                      <div class="card-header text-left" id="headingICOSST2013"  data-toggle="collapse"
+                                                            data-target="#collapseICOSST2013" aria-expanded="true" aria-controls="collapseICOSST2013">
+
+
+                                                              <h2 class="mb-0">
+                                                               <button class="btn btn-link text-decoration-none text-left" type="button" data-toggle="collapse"
+                                                                 data-target="#collapseICOSST2013" aria-expanded="true" aria-controls="collapseICOSST2013">
+                                                                 2013 International Conference on Open Source Systems and Technologies
+                                                               </button>
+                                                             </h2>
+
+                                                      </div>
+
+                                                      <div id="collapseICOSST2013" class="card-body collapse hide" aria-labelledby="headingICOSST2013"
+                                                              data-parent="#projects_accordion">
+
+                                                              <p class="card-text">
+                                                                In ICOSST 2013, as being part of the organizers and publication committee,
+                                                                I worked mainly on organizational tasks and helped in research paper submissions handling, research paper reviews,
+                                                                ICOSST 2013 web portal management and maintenance, author correspondences and technical program committee correspondences.
+                                                                Moreover, I provided consultancy in event organization and management.
+                                                              </p>
+
+                                                      </div>
+
+                                                </div>
+
+
+                                                <div class="card mt-3">
+
+                                                      <div class="card-header text-left" id="headingICOSST2012"  data-toggle="collapse"
+                                                            data-target="#collapseICOSST2012" aria-expanded="true" aria-controls="collapseICOSST2012">
+
+
+                                                              <h2 class="mb-0">
+                                                               <button class="btn btn-link text-decoration-none text-left" type="button" data-toggle="collapse"
+                                                                 data-target="#collapseICOSST2012" aria-expanded="true" aria-controls="collapseICOSST2012">
+                                                                 2012 International Conference on Open Source Systems and Technologies
+                                                               </button>
+                                                             </h2>
+
+                                                      </div>
+
+                                                      <div id="collapseICOSST2012" class="card-body collapse hide" aria-labelledby="headingICOSST2012"
+                                                              data-parent="#projects_accordion">
+
+                                                              <p class="card-text">
+                                                                In ICOSST 2012, as being part of the organizers and publication committee, I worked mainly on management side
+                                                                and my main responsibilities included
+
+                                                                <ul>
+                                                                  <li>Submissions management</li>
+                                                                  <li>Technical programme committee development</li>
+                                                                  <li>Tracking of reviewers</li>
+                                                                  <li>Research paper reviews, and reviews of reviews</li>
+                                                                  <li>Plagiarism analysis and issue conflict resolution</li>
+                                                                  <li>Author registrations and payments management</li>
+                                                                  <li>Author correspondences</li>
+                                                                  <li>Publication committee assistance</li>
+                                                                  <li>Conference program scheduling</li>
+                                                                  <li>Materials finalization and packaging for IEEE Xplore</li>
+                                                                  <li>ICOSST 2012 website maintenance</li>
+                                                                </ul>
+
+                                                              </p>
+
+                                                      </div>
+
+                                                    </div>
+
+
+                                                    <div class="card mt-3">
+
+                                                          <div class="card-header text-left" id="headingBatchEmailer"  data-toggle="collapse"
+                                                                data-target="#collapseBatchEmailer" aria-expanded="true" aria-controls="collapseBatchEmailer">
+
+
+                                                                  <h2 class="mb-0">
+                                                                   <button class="btn btn-link text-decoration-none text-left" type="button" data-toggle="collapse"
+                                                                     data-target="#collapseBatchEmailer" aria-expanded="true" aria-controls="collapseBatchEmailer">
+                                                                     Batch Emailer
+                                                                   </button>
+                                                                 </h2>
+
+                                                          </div>
+
+                                                          <div id="collapseBatchEmailer" class="card-body collapse hide" aria-labelledby="headingBatchEmailer"
+                                                                  data-parent="#projects_accordion">
+
+                                                                  <p class="card-text">
+                                                                    BatchEmailer application allows mass emailing, which is mainly used for marketing purposes.
+                                                                    I developed Batch Emailer in two forms, first, as a Java EE based web application, and second as a standalone Java SE multithreaded application. Distinctive features of both applications were
+
+                                                                     <ul>
+                                                                       <li>Fault-tolerance</li>
+                                                                       <li>Fail safety</li>
+                                                                     </ul>
+
+
+                                                                  </p>
+
+                                                          </div>
+
+                                                      </div>
+
+
+                                                      <div class="card mt-3">
+
+                                                            <div class="card-header text-left" id="headingBookACourse"  data-toggle="collapse"
+                                                                  data-target="#collapseBookACourse" aria-expanded="true" aria-controls="collapseBookACourse">
+
+
+                                                                    <h2 class="mb-0">
+                                                                     <button class="btn btn-link text-decoration-none text-left" type="button" data-toggle="collapse"
+                                                                       data-target="#collapseBookACourse" aria-expanded="true" aria-controls="collapseBookACourse">
+                                                                       BookACourse
+                                                                     </button>
+                                                                   </h2>
+
+                                                            </div>
+
+                                                            <div id="collapseBookACourse" class="card-body collapse hide" aria-labelledby="headingBookACourse"
+                                                                    data-parent="#projects_accordion">
+
+                                                                    <p class="card-text">
+                                                                      BookACourse web application is product oriented, and part of corporate bookacourse.com website. I was involved in Research & Development tasks, HTML prototyping, and mainly Test Driven Development. Responsibilities mainly included
+
+                                                                      <ul>
+                                                                        <li>Converting design documents to concrete Java-code</li>
+                                                                        <li>Writing and reviewing technical design documents</li>
+                                                                        <li>Testing using test driven development using JUnit framework</li>
+                                                                        <li>Reporting and resolving technical issues</li>
+                                                                      </ul>
+
+                                                                    </p>
+
+                                                            </div>
+
+                                                        </div>
+
+
+                                                        <div class="card mt-3">
+
+                                                              <div class="card-header text-left" id="headingParaDetect"  data-toggle="collapse"
+                                                                    data-target="#collapseParaDetect" aria-expanded="true" aria-controls="collapseParaDetect">
+
+
+                                                                      <h2 class="mb-0">
+                                                                       <button class="btn btn-link text-decoration-none text-left" type="button" data-toggle="collapse"
+                                                                         data-target="#collapseParaDetect" aria-expanded="true" aria-controls="collapseParaDetect">
+                                                                         Paraphrase Identification
+                                                                       </button>
+                                                                     </h2>
+
+                                                              </div>
+
+                                                              <div id="collapseParaDetect" class="card-body collapse hide" aria-labelledby="headingParaDetect"
+                                                                      data-parent="#projects_accordion">
+
+                                                                      <p class="card-text">
+                                                                        My MCS dissertation research project was related mainly to text mining domain, purposed to learn to identify that whether or not two sentences in English language are paraphrases of each other. ParaDetect, a paraphrase identification system I developed using Java SE, which utilized machine learning classifier to learn to classify sentence pairs as paraphrases or not paraphrases of each other.
+                                                                      </p>
+
+                                                                      <p class="card-text">
+                   The system implemented achieved performance accuracy comparable to state-of-the-art paraphrase identification systems. Analysis of Microsoft Research Paraphrase Corpus, a standard dataset used mainly for evaluation of paraphrase identification techniques, and features based on semantic heuristics used for detecting not-paraphrase sentence pairs by ParaDetect were important part of the research and development. The research elements of this work were published under title “Paraphrase Identification using Semantic Heuristic Features” in Research Journal of Applied Sciences.
+                                                                      </p>
+
+
+
+                                                              </div>
+
+                                                          </div>
+
+
+
+
+
+
+
+                                        </div>
+
                                               </div>
 
                                           </div>
 
+                                      </div>
+
+                                  </div>
 
 
-
-
-
-
-
-                        <ul class="list-group list-group-flush">
-
-
-                        </ul>
-
-
-
-                </div>
-              </div>
-            </div>
 
 
 
@@ -769,7 +811,7 @@ The system implemented achieved performance accuracy comparable to state-of-the-
                 <div class="col float-left">
 
                     <div class="card">
-                        <div class="card-header card-title h5 text-white bg-success">
+                        <div class="card-header card-title h5">
                             Education
                         </div>
                         <div class="card-body">
@@ -838,7 +880,7 @@ The system implemented achieved performance accuracy comparable to state-of-the-
 
                                   <div class="accordion" id="accordionSkills">
 
-                                    <div class="card-header h5 text-white bg-success">
+                                    <div class="card-header h5 ">
                                         Skills
 
                                     </div>
@@ -851,12 +893,12 @@ The system implemented achieved performance accuracy comparable to state-of-the-
                                           <div class="card mt-3">
 
 
-                                                <div class="card-header bg-light  text-left" id="headingSoftwareDevelopment"  data-toggle="collapse"
+                                                <div class="card-header text-left" id="headingSoftwareDevelopment"  data-toggle="collapse"
                                                       data-target="#collapseSoftware" aria-expanded="true" aria-controls="collapseSoftware">
 
 
                                                         <h2 class="mb-0">
-                                                         <button class="btn btn-link text-decoration-none text-dark  text-left" type="button" data-toggle="collapse"
+                                                         <button class="btn btn-link text-decoration-none text-left" type="button" data-toggle="collapse"
                                                            data-target="#collapseSoftware" aria-expanded="true" aria-controls="collapseSoftware">
                                                            Software Development Language Tool Skills
                                                          </button>
@@ -886,12 +928,12 @@ The system implemented achieved performance accuracy comparable to state-of-the-
 
                                         <div class="card mt-3">
 
-                                              <div class="card-header bg-light  text-left" id="headingJavaSkills"  data-toggle="collapse"
+                                              <div class="card-header text-left" id="headingJavaSkills"  data-toggle="collapse"
                                                     data-target="#collapseJava" aria-expanded="true" aria-controls="collapseJava">
 
 
                                                       <h2 class="mb-0">
-                                                       <button class="btn btn-link text-decoration-none text-dark  text-left" type="button" data-toggle="collapse"
+                                                       <button class="btn btn-link text-decoration-none   text-left" type="button" data-toggle="collapse"
                                                          data-target="#collapseJava" aria-expanded="true" aria-controls="collapseJava">
                                                          Java Skills (To mention a few)
                                                        </button>
@@ -927,12 +969,12 @@ The system implemented achieved performance accuracy comparable to state-of-the-
 
                                       <div class="card mt-3">
 
-                                          <div class="card-header bg-light  text-left" id="headingDataAnalysisSkills"  data-toggle="collapse"
+                                          <div class="card-header  text-left" id="headingDataAnalysisSkills"  data-toggle="collapse"
                                                 data-target="#collapseDataAnalysisSkills" aria-expanded="true" aria-controls="collapseDataAnalysisSkills">
 
 
                                                   <h2 class="mb-0">
-                                                   <button class="btn btn-link text-decoration-none text-dark  text-left" type="button" data-toggle="collapse"
+                                                   <button class="btn btn-link text-decoration-none   text-left" type="button" data-toggle="collapse"
                                                      data-target="#collapseDataAnalysisSkills" aria-expanded="true" aria-controls="collapseDataAnalysisSkills">
                                                       Data Analysis Skills
                                                    </button>
@@ -961,12 +1003,12 @@ The system implemented achieved performance accuracy comparable to state-of-the-
 
                                             <div class="card mt-3">
 
-                                                    <div class="card-header bg-light  text-left" id="headingCommunicationSkills"  data-toggle="collapse"
+                                                    <div class="card-header  text-left" id="headingCommunicationSkills"  data-toggle="collapse"
                                                           data-target="#collapseCommunicationSkills" aria-expanded="true" aria-controls="collapseCommunicationSkills">
 
 
                                                             <h2 class="mb-0">
-                                                             <button class="btn btn-link text-decoration-none text-dark  text-left" type="button" data-toggle="collapse"
+                                                             <button class="btn btn-link text-decoration-none text-left" type="button" data-toggle="collapse"
                                                                data-target="#collapseCommunicationSkills" aria-expanded="true" aria-controls="collapseCommunicationSkills">
                                                                 Communication Skills
                                                              </button>
@@ -992,12 +1034,12 @@ The system implemented achieved performance accuracy comparable to state-of-the-
                                             <div class="card mt-3">
 
 
-                                                <div class="card-header bg-light  text-left" id="headingOrganizationalSkills"  data-toggle="collapse"
+                                                <div class="card-header  text-left" id="headingOrganizationalSkills"  data-toggle="collapse"
                                                       data-target="#collapseOrganizationalSkills" aria-expanded="true" aria-controls="collapseOrganizationalSkills">
 
 
                                                         <h2 class="mb-0">
-                                                         <button class="btn btn-link text-decoration-none text-dark  text-left" type="button" data-toggle="collapse"
+                                                         <button class="btn btn-link text-decoration-none  text-left" type="button" data-toggle="collapse"
                                                            data-target="#collapseOrganizationalSkills" aria-expanded="true"
                                                            aria-controls="collapseOrganizationalSkills">
                                                             Organisational & Managerial skills
@@ -1034,12 +1076,12 @@ The system implemented achieved performance accuracy comparable to state-of-the-
                                             <div class="card mt-3">
 
 
-                                                <div class="card-header bg-light  text-left" id="headingOtherSkills"  data-toggle="collapse"
+                                                <div class="card-header  text-left" id="headingOtherSkills"  data-toggle="collapse"
                                                       data-target="#collapseOtherSkills" aria-expanded="true" aria-controls="collapseOtherSkills">
 
 
                                                         <h2 class="mb-0">
-                                                         <button class="btn btn-link text-decoration-none text-dark  text-left" type="button" data-toggle="collapse"
+                                                         <button class="btn btn-link text-decoration-none text-left" type="button" data-toggle="collapse"
                                                            data-target="#collapseOtherSkills" aria-expanded="true"
                                                            aria-controls="collapseOtherSkills">
                                                             Other Skills
@@ -1081,12 +1123,12 @@ The system implemented achieved performance accuracy comparable to state-of-the-
 
                                         <div class="card mt-3">
 
-                                            <div class="card-header bg-light  text-left" id="headingSoftwareSkills"  data-toggle="collapse"
+                                            <div class="card-header  text-left" id="headingSoftwareSkills"  data-toggle="collapse"
                                                   data-target="#collapseSoftwareSkills" aria-expanded="true" aria-controls="collapseSoftwareSkills">
 
 
                                                     <h2 class="mb-0">
-                                                     <button class="btn btn-link text-decoration-none text-dark  text-left" type="button" data-toggle="collapse"
+                                                     <button class="btn btn-link text-decoration-none text-left" type="button" data-toggle="collapse"
                                                        data-target="#collapseSoftwareSkills" aria-expanded="true" aria-controls="collapseSoftwareSkills">
                                                        Software Tools (To mention a few)
                                                      </button>
@@ -1221,7 +1263,7 @@ The system implemented achieved performance accuracy comparable to state-of-the-
 
                     <div class="card">
 
-                        <div class="card-header card-title h5 text-white bg-success">
+                        <div class="card-header card-title h5 ">
                             Natural Language Skills
                         </div>
                         <div class="card-body">
@@ -1295,7 +1337,7 @@ The system implemented achieved performance accuracy comparable to state-of-the-
                 <div class="col float-left">
 
                     <div class="card" >
-                        <div class="card-header card-title h5 text-white bg-success">
+                        <div class="card-header card-title h5 ">
                             Other Interests
                         </div>
                         <div class="card-body">
@@ -1341,7 +1383,7 @@ The system implemented achieved performance accuracy comparable to state-of-the-
                 <div class="col float-left">
 
                     <div class="card">
-                        <div class="card-header card-title h5 text-white bg-success">
+                        <div class="card-header card-title h5 ">
                             Contact
                         </div>
                         <div class="card-body">
@@ -1402,12 +1444,24 @@ The system implemented achieved performance accuracy comparable to state-of-the-
 
                         </div>
 
-                        <div class="card-footer text-white bg-dark">
-                            All rights reserved.
+                        <div class="card-footer text-white bg-dark py-3">
+                            <p class="text-light">All rights reserved.</p>
+
+                            <div class="display-6 border-top py-3" id="Accessibility">
+                                  Accessibility options 
+
+                                  <div class="btn-group btn-group-toggle btn-group-sm" data-toggle="buttons" role="group" aria-label="Accessibility Options">
+                                    <button type="button" name="lightMode" id="lightModeBtn" class="btn btn-light" autocomplete="off" >Light Mode</button>
+                                    <button type="button" name="darkMode" id="darkModeBtn" class="btn btn-secondary active" autocomplete="off" >Dark Mode</button>
+                                  </div>
+
+                            </div>
 
                             <span class="display-6 text-muted">
-                                  Last updated on 8th April, 2019.
+                                  Last updated on 15th April, 2019.
                             </span>
+
+
                         </div>
 
                     </div>
@@ -1427,6 +1481,7 @@ The system implemented achieved performance accuracy comparable to state-of-the-
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
