@@ -1,19 +1,16 @@
 $(document).ready(function(){
 
 
-            # when clicking light mode button
-            $( "#lightModeBtnnnnn" ).click(function() {
-              $(this).hide();
-              alert( "Handler for .lightModeBtn() called." );
+            // when clicking light mode button
+            $( "#lightModeBtn" ).click(function() {
+              $('#accessibilityStyleSheet').attr("href", "res/css/day.css");
             });
 
 
-            # when clicking dark mode button
-            $( "#darkModeBtnnnn" ).click(function() {
-              $(this).hide();
-              alert( "Handler for .darkModeBtn() called." );
+            // when clicking dark mode button
+            $( "#darkModeBtn" ).click(function() {
+              $('#accessibilityStyleSheet').attr("href", "res/css/night.css");
             });
-
 
 
 });

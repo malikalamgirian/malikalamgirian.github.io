@@ -1,0 +1,62 @@
+
+body {
+  background-color: #FFFFFF;
+}
+
+.jumbotron {
+  color: #09395B;
+  background-color: #EAEAEA;
+}
+
+.card  {
+  border-color: #000000;
+}
+
+.card-header  {
+  color: #09395B;
+  background-color: #EBDCD4;
+}
+
+
+.card-body  {
+  color: #09395B;
+  background-color: #EAEAEA;
+}
+
+
+.table  {
+  color: #09395B;
+  background-color: #EAEAEA;
+}
+
+
+.table-hover tbody tr:hover {
+  color: #000000;
+  background-color: #EAEAEA;
+}
+
+
+.list-group-item {
+  color: #09395B;
+  background-color: #EAEAEA;
+}
+
+
+.btn-link {
+  color: #09395B;
+}
+
+
+.btn-link:hover {
+  color: #09395B;
+}
+
+
+a:hover {
+  color: #09395B;
+}
+
+
+a {
+  color: #09395B;
+}

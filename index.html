@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
           <!-- Global site tag (gtag.js) - Google Analytics -->
           <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137972129-1"></script>
@@ -17,26 +17,9 @@
           <script>
                 $(function(){
 
-                  alert( "Handler called." );
-
-                            # when clicking light mode button
-                            $( "button" ).click(function() {
-                              $(this).hide();
-                              alert( "Handler for .lightModeBtn() called." );
-                            });
-
-
-                            # when clicking dark mode button
-                            $( "button" ).click(function() {
-                              $(this).hide();
-                              alert( "Handler for .darkModeBtn() called." );
-                            });
-
-
-
                 });
+          </script>
 
-        </script>
         <!-- accessibility JavaScript  -->
         <script src="res/js/accessibility.js"></script>
 
@@ -46,7 +29,7 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="res/css/night.css">
+        <link rel="stylesheet" href="res/css/night.css" id="accessibilityStyleSheet">
 
         <title>Wasif Altaf | CV</title>
 
@@ -1465,7 +1448,7 @@
                             <p class="text-light">All rights reserved.</p>
 
                             <div class="display-6 border-top py-3" id="Accessibility">
-                                  Accessibility options:
+                                  Accessibility options 
 
                                   <div class="btn-group btn-group-toggle btn-group-sm" data-toggle="buttons" role="group" aria-label="Accessibility Options">
                                     <button type="button" name="lightMode" id="lightModeBtn" class="btn btn-light" autocomplete="off" >Light Mode</button>
